@@ -1,0 +1,103 @@
+.red{
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+#instagram a{
+    background: radial-gradient(circle at 30% 110%, #ffdb8b 0%,#ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%);
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: black;
+    width: 55px;
+    transition: all .4s ease;
+}
+#instagram a:hover{
+    background: rgb(circle at 30% 110%, #ffdb8b 0%,#ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%);
+    padding: 10px 50px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: rale;
+}
+
+header{
+	width: 100%;
+	background: rgba(115, 20, 209, 0.938);
+	height: 80px;
+	position: 60px;
+	z-index: 10;
+}
+/* aquí estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 80px;
+	/*background: red;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: rale;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: rgba(17, 14, 14, 0.966);
+	font-size:30 px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 23px;
+	font-weight: bold;
+    word-spacing:10cm;
+	font-family:  Helvetica;
+	
+	
+}
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+
+
+.fcc-btn{
+	background-color: rgb(220, 200, 20);
+	border:none;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align:right;
+
+
+  
+  }
+
+@font-face{
+	font-family: rale;
+	src: url(fuentes/Raleway-Regular.ttf);
+}
